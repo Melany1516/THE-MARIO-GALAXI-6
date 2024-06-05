@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: georgia;
+    text-align: justify;
+}
+
+header{
+    background-color: #ada9a9;
+    text-align: center;
+    padding: 25px 0;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+nav a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.encabezado-img{
+    background-image: url(mela.jpg);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.encabezado-img h1{
+    font-size: 50px;
+}
+
+.encabezado-img h2{
+    font-size: 30px;
+}
+
+h1{
+text-align: center;
+}
+
+p{
+    font-size: 15px;
+}
+ 
+.Contenedor{       
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+.card-container {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    margin: auto;
+}
+
+.card {
+    width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-image {
+    overflow: hidden;
+    align-content: center;
+}
+
+.card-image img {
+    width: 600px;
+    height: 270px;
+    height: auto;
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-image img {
+    transform: scale(1.1);
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    margin-top: 0;
+}
+
+.card-content p {
+    margin-bottom: 20px;
+}
+
+.card-content a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card-content a:hover {
+    background-color: #1b4e85;
+}
+
+/* footer */
+
+footer{
+    background: #000000;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    gap: 30px;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #6a6b91;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #fff;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px 0 0 0;
+    margin: 20px;
+    color: #727070;
+
+}
+
+
+
+
